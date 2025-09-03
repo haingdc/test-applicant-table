@@ -25,6 +25,8 @@ Dùn một database giúp dễ dàng thao tác dữ liệu như insert, update, 
 
 Các thư viện TanStack như TanStack Query, TanStack Table, TanStack Virtual, v.v. giúp hỗ trợ đặc biệt hữu ích cho yêu cầu này.
 
+Nếu api trả về đủ nhanh làm hiển thị loading text bị flash, có thể dùng hook [spin-delay](https://www.npmjs.com/package/spin-delay) giúp đảm bảo nếu api trả về nhanh thì không cần hiện Loading và nếu đã hiện loading thì đảm bảo nó hiện trong một khoảng thời gian trước khi hiển thị những row mới.
+
 ## 3. Editing & Inline editing
 
 Trong database.sqlite có field position: number thể hiện vị trí.
@@ -33,3 +35,5 @@ pros: giúp cập nhật data ở một row cụ thể
 cons: chưa có solution để thêm row mới vào giữa các rows
 
 TanStack table có ví dụ để inline editing [link](https://tanstack.com/table/latest/docs/framework/react/examples/editable-data), ngoài ra còn có search, sort và filter bảng.
+
+- Có thể dùng optimistic update để tăng trải nghiệm người dùng là UI update mượt, nếu gặp lỗi thì rollback data
