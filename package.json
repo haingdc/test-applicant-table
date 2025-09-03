@@ -5,17 +5,35 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "seed": "node database/schema.js && node database/seed.js"
   },
   "dependencies": {
+    "@radix-ui/react-checkbox": "^1.3.3",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@tanstack/react-query": "^5.85.6",
+    "@tanstack/react-table": "^8.21.3",
+    "@tanstack/react-virtual": "^3.13.12",
+    "better-sqlite3": "^12.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.542.0",
+    "next": "15.5.2",
+    "postcss": "^8.5.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.2"
+    "sqlite3": "^5.1.7",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.12"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@faker-js/faker": "^9.9.0",
+    "@tanstack/eslint-plugin-query": "^5.83.1",
+    "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^20",
     "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react-dom": "^19",
+    "tw-animate-css": "^1.3.7",
+    "typescript": "^5"
   }
 }
