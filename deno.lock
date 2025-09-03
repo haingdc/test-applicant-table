@@ -8,13 +8,11 @@
     "npm:@tanstack/react-query@^5.85.6": "5.85.9_react@19.1.0",
     "npm:@tanstack/react-table@^8.21.3": "8.21.3_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:@tanstack/react-virtual@^3.13.12": "3.13.12_react@19.1.0_react-dom@19.1.0__react@19.1.0",
-    "npm:@types/better-sqlite3@^7.6.13": "7.6.13",
     "npm:@types/node@20": "20.19.11",
     "npm:@types/react-dom@19": "19.1.9_@types+react@19.1.12",
     "npm:@types/react@19": "19.1.12",
     "npm:class-variance-authority@~0.7.1": "0.7.1",
     "npm:clsx@^2.1.1": "2.1.1",
-    "npm:libsql@~0.5.22": "0.5.22",
     "npm:lucide-react@0.542": "0.542.0_react@19.1.0",
     "npm:next@15.5.2": "15.5.2_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:next@latest": "15.5.2_react@19.1.0_react-dom@19.1.0__react@19.1.0",
@@ -297,51 +295,6 @@
         "@jridgewell/sourcemap-codec"
       ]
     },
-    "@libsql/darwin-arm64@0.5.22": {
-      "integrity": "sha512-4B8ZlX3nIDPndfct7GNe0nI3Yw6ibocEicWdC4fvQbSs/jdq/RC2oCsoJxJ4NzXkvktX70C1J4FcmmoBy069UA==",
-      "os": ["darwin"],
-      "cpu": ["arm64"]
-    },
-    "@libsql/darwin-x64@0.5.22": {
-      "integrity": "sha512-ny2HYWt6lFSIdNFzUFIJ04uiW6finXfMNJ7wypkAD8Pqdm6nAByO+Fdqu8t7sD0sqJGeUCiOg480icjyQ2/8VA==",
-      "os": ["darwin"],
-      "cpu": ["x64"]
-    },
-    "@libsql/linux-arm-gnueabihf@0.5.22": {
-      "integrity": "sha512-3Uo3SoDPJe/zBnyZKosziRGtszXaEtv57raWrZIahtQDsjxBVjuzYQinCm9LRCJCUT5t2r5Z5nLDPJi2CwZVoA==",
-      "os": ["linux"],
-      "cpu": ["arm"]
-    },
-    "@libsql/linux-arm-musleabihf@0.5.22": {
-      "integrity": "sha512-LCsXh07jvSojTNJptT9CowOzwITznD+YFGGW+1XxUr7fS+7/ydUrpDfsMX7UqTqjm7xG17eq86VkWJgHJfvpNg==",
-      "os": ["linux"],
-      "cpu": ["arm"]
-    },
-    "@libsql/linux-arm64-gnu@0.5.22": {
-      "integrity": "sha512-KSdnOMy88c9mpOFKUEzPskSaF3VLflfSUCBwas/pn1/sV3pEhtMF6H8VUCd2rsedwoukeeCSEONqX7LLnQwRMA==",
-      "os": ["linux"],
-      "cpu": ["arm64"]
-    },
-    "@libsql/linux-arm64-musl@0.5.22": {
-      "integrity": "sha512-mCHSMAsDTLK5YH//lcV3eFEgiR23Ym0U9oEvgZA0667gqRZg/2px+7LshDvErEKv2XZ8ixzw3p1IrBzLQHGSsw==",
-      "os": ["linux"],
-      "cpu": ["arm64"]
-    },
-    "@libsql/linux-x64-gnu@0.5.22": {
-      "integrity": "sha512-kNBHaIkSg78Y4BqAdgjcR2mBilZXs4HYkAmi58J+4GRwDQZh5fIUWbnQvB9f95DkWUIGVeenqLRFY2pcTmlsew==",
-      "os": ["linux"],
-      "cpu": ["x64"]
-    },
-    "@libsql/linux-x64-musl@0.5.22": {
-      "integrity": "sha512-UZ4Xdxm4pu3pQXjvfJiyCzZop/9j/eA2JjmhMaAhe3EVLH2g11Fy4fwyUp9sT1QJYR1kpc2JLuybPM0kuXv/Tg==",
-      "os": ["linux"],
-      "cpu": ["x64"]
-    },
-    "@libsql/win32-x64-msvc@0.5.22": {
-      "integrity": "sha512-Fj0j8RnBpo43tVZUVoNK6BV/9AtDUM5S7DF3LB4qTYg1LMSZqi3yeCneUTLJD6XomQJlZzbI4mst89yspVSAnA==",
-      "os": ["win32"],
-      "cpu": ["x64"]
-    },
     "@napi-rs/wasm-runtime@0.2.12": {
       "integrity": "sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==",
       "dependencies": [
@@ -349,9 +302,6 @@
         "@emnapi/runtime",
         "@tybys/wasm-util"
       ]
-    },
-    "@neon-rs/load@0.0.4": {
-      "integrity": "sha512-kTPhdZyTQxB+2wpiRcFWrDcejc4JI6tkPuS7UZCG4l6Zvc5kU/gGQ/ozvHTh1XR5tS+UlfAfGuPajjzQjCiHCw=="
     },
     "@next/env@15.5.2": {
       "integrity": "sha512-Qe06ew4zt12LeO6N7j8/nULSOe3fMXE4dM6xgpBQNvdzyK1sv5y4oAP3bq4LamrvGCZtmRYnW8URFCeX5nFgGg=="
@@ -639,7 +589,7 @@
     "@tailwindcss/oxide@4.1.12": {
       "integrity": "sha512-gM5EoKHW/ukmlEtphNwaGx45fGoEmP10v51t9unv55voWh6WrOL19hfuIdo2FjxIaZzw776/BUQg7Pck++cIVw==",
       "dependencies": [
-        "detect-libc@2.0.4",
+        "detect-libc",
         "tar"
       ],
       "optionalDependencies": [
@@ -713,12 +663,6 @@
         "tslib"
       ]
     },
-    "@types/better-sqlite3@7.6.13": {
-      "integrity": "sha512-NMv9ASNARoKksWtsq/SHakpYAYnhBrQgGD8zkLYk/jaK8jUGn08CfEdTRgYhMypUQAfzSP8W6gNLe0q19/t4VA==",
-      "dependencies": [
-        "@types/node@24.2.0"
-      ]
-    },
     "@types/estree@1.0.8": {
       "integrity": "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w=="
     },
@@ -728,13 +672,7 @@
     "@types/node@20.19.11": {
       "integrity": "sha512-uug3FEEGv0r+jrecvUUpbY8lLisvIjg6AAic6a2bSP5OEOLeJsDSnvhCDov7ipFFMXS3orMpzlmi0ZcuGkBbow==",
       "dependencies": [
-        "undici-types@6.21.0"
-      ]
-    },
-    "@types/node@24.2.0": {
-      "integrity": "sha512-3xyG3pMCq3oYCNg7/ZP+E1ooTaGB4cG8JWRsqqOYQdbWNY4zbaV0Ennrd7stjiJEFZCaybcIgpTjJWHRfBSIDw==",
-      "dependencies": [
-        "undici-types@7.10.0"
+        "undici-types"
       ]
     },
     "@types/react-dom@19.1.9_@types+react@19.1.12": {
@@ -931,9 +869,6 @@
     },
     "deep-is@0.1.4": {
       "integrity": "sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ=="
-    },
-    "detect-libc@2.0.2": {
-      "integrity": "sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw=="
     },
     "detect-libc@2.0.4": {
       "integrity": "sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA=="
@@ -1167,26 +1102,6 @@
         "type-check"
       ]
     },
-    "libsql@0.5.22": {
-      "integrity": "sha512-NscWthMQt7fpU8lqd7LXMvT9pi+KhhmTHAJWUB/Lj6MWa0MKFv0F2V4C6WKKpjCVZl0VwcDz4nOI3CyaT1DDiA==",
-      "dependencies": [
-        "@neon-rs/load",
-        "detect-libc@2.0.2"
-      ],
-      "optionalDependencies": [
-        "@libsql/darwin-arm64",
-        "@libsql/darwin-x64",
-        "@libsql/linux-arm-gnueabihf",
-        "@libsql/linux-arm-musleabihf",
-        "@libsql/linux-arm64-gnu",
-        "@libsql/linux-arm64-musl",
-        "@libsql/linux-x64-gnu",
-        "@libsql/linux-x64-musl",
-        "@libsql/win32-x64-msvc"
-      ],
-      "os": ["darwin", "linux", "win32"],
-      "cpu": ["x64", "arm64", "wasm32", "arm"]
-    },
     "lightningcss-darwin-arm64@1.30.1": {
       "integrity": "sha512-c8JK7hyE65X1MHMN+Viq9n11RRC7hgin3HhYKhrMyaXflk5GVplZ60IxyoVtzILeKr+xAJwg6zK6sjTBJ0FKYQ==",
       "os": ["darwin"],
@@ -1240,7 +1155,7 @@
     "lightningcss@1.30.1": {
       "integrity": "sha512-xi6IyHML+c9+Q3W0S4fCQJOym42pyurFiJUHEcEyHS0CeKzia4yZDEsLlqOFykxOdHpNy0NmvVO31vcSqAxJCg==",
       "dependencies": [
-        "detect-libc@2.0.4"
+        "detect-libc"
       ],
       "optionalDependencies": [
         "lightningcss-darwin-arm64",
@@ -1444,7 +1359,7 @@
       "integrity": "sha512-eX2IQ6nFohW4DbvHIOLRB3MHFpYqaqvXd3Tp5e/T/dSH83fxaNJQRvDMhASmkNTsNTVF2/OOopzRCt7xokgPfg==",
       "dependencies": [
         "color",
-        "detect-libc@2.0.4",
+        "detect-libc",
         "semver"
       ],
       "optionalDependencies": [
@@ -1558,9 +1473,6 @@
     "undici-types@6.21.0": {
       "integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ=="
     },
-    "undici-types@7.10.0": {
-      "integrity": "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag=="
-    },
     "uri-js@4.4.1": {
       "integrity": "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==",
       "dependencies": [
@@ -1584,6 +1496,20 @@
       "integrity": "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="
     }
   },
+  "redirects": {
+    "https://deno.land/x/sqlite/mod.ts": "https://deno.land/x/sqlite@v3.9.1/mod.ts"
+  },
+  "remote": {
+    "https://deno.land/x/sqlite@v3.9.1/build/sqlite.js": "2afc7875c7b9c85d89730c4a311ab3a304e5d1bf761fbadd8c07bbdf130f5f9b",
+    "https://deno.land/x/sqlite@v3.9.1/build/vfs.js": "7f7778a9fe499cd10738d6e43867340b50b67d3e39142b0065acd51a84cd2e03",
+    "https://deno.land/x/sqlite@v3.9.1/mod.ts": "e09fc79d8065fe222578114b109b1fd60077bff1bb75448532077f784f4d6a83",
+    "https://deno.land/x/sqlite@v3.9.1/src/constants.ts": "90f3be047ec0a89bcb5d6fc30db121685fc82cb00b1c476124ff47a4b0472aa9",
+    "https://deno.land/x/sqlite@v3.9.1/src/db.ts": "03d0c860957496eadedd86e51a6e650670764630e64f56df0092e86c90752401",
+    "https://deno.land/x/sqlite@v3.9.1/src/error.ts": "f7a15cb00d7c3797da1aefee3cf86d23e0ae92e73f0ba3165496c3816ab9503a",
+    "https://deno.land/x/sqlite@v3.9.1/src/function.ts": "bc778cab7a6d771f690afa27264c524d22fcb96f1bb61959ade7922c15a4ab8d",
+    "https://deno.land/x/sqlite@v3.9.1/src/query.ts": "d58abda928f6582d77bad685ecf551b1be8a15e8e38403e293ec38522e030cad",
+    "https://deno.land/x/sqlite@v3.9.1/src/wasm.ts": "e79d0baa6e42423257fb3c7cc98091c54399254867e0f34a09b5bdef37bd9487"
+  },
   "workspace": {
     "packageJson": {
       "dependencies": [
@@ -1594,13 +1520,11 @@
         "npm:@tanstack/react-query@^5.85.6",
         "npm:@tanstack/react-table@^8.21.3",
         "npm:@tanstack/react-virtual@^3.13.12",
-        "npm:@types/better-sqlite3@^7.6.13",
         "npm:@types/node@20",
         "npm:@types/react-dom@19",
         "npm:@types/react@19",
         "npm:class-variance-authority@~0.7.1",
         "npm:clsx@^2.1.1",
-        "npm:libsql@~0.5.22",
         "npm:lucide-react@0.542",
         "npm:next@15.5.2",
         "npm:postcss@^8.5.6",

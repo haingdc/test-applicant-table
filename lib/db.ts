@@ -1,6 +1,7 @@
-import Database from 'libsql';
+// @ts-ignore
+import { DatabaseSync } from "node:sqlite";
 
-const db = new Database('./database.sqlite', { fileMustExist: true });
+const db = new DatabaseSync('./database.sqlite');
 
 export type DatabasePerson = {
   id: string
@@ -14,6 +15,7 @@ export type DatabasePerson = {
 }
 
 export function getPersons(page: number = 1, pageSize: number = 10): { data: DatabasePerson[], total: number } {
+  console.log('getPersons called with page:', page, 'pageSize:', pageSize);
   const offset = (page - 1) * pageSize;
   
   const countStmt = db.prepare('SELECT COUNT(*) as count FROM users');
@@ -27,9 +29,21 @@ export function getPersons(page: number = 1, pageSize: number = 10): { data: Dat
   `);
   
   const data = stmt.all(pageSize, offset) as DatabasePerson[];
+  const transformedData = data.map((d) => { // avoid unserialized data pass to Client Components
+    return {
+      id: d.id,
+      name: d.name,
+      position: d.position,
+      state: d.state,
+      bio: d.bio,
+      language: d.language,
+      version: d.version,
+      createdDate: d.createdDate
+    }
+  })
   
   return {
-    data,
+    data: transformedData,
     total: count
   };
 }
